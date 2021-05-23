@@ -1,0 +1,11 @@
+@import "~antd/dist/antd.css";
+
+.animation__show {
+    animation: show linear 0.25s;    
+}
+@keyframes show {
+    from {
+        transform: scale(0.8);
+    }
+    to{ transform: scale(1);}
+}
